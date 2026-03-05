@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>maplibre-global-state-reprod</title>
+  </head>
+  <body>
+    <div id="map" style="width: 400px; height: 400px"></div>
+    <div>
+      <button id="set-gs-unrelated">Set "unrelated" to `true`</button>
+      <button id="set-gs-test">Set "test" to `null`</button>
+      <button onclick="location.reload()">Reload page</button>
+    </div>
+    <p>map.getGlobalState():</p>
+    <pre id="global-state"></pre>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
