@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       maplibre-gl:
-        specifier: ^5.19.0
+        specifier: 5.19.0
         version: 5.19.0
     devDependencies:
       vite:
